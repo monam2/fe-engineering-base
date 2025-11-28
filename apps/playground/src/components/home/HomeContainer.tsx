@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 "use client";
 
 import Link from "next/link";
@@ -8,7 +9,10 @@ import { isEmpty } from "@fe-base/utils";
 export default function HomeContainer() {
   return (
     <PatternsList
-      patterns={[{ name: "Impression Area", href: "/react/impression-area" }]}
+      patterns={[
+        { name: "Impression Area", href: "/react/impression-area" },
+        { name: "Row Section", href: "/react/row-section" },
+      ]}
     />
   );
 }
