@@ -1,4 +1,6 @@
-interface IfProps {
+"use client";
+
+export interface IfProps {
   condition: boolean | unknown;
   trueRender?: React.ReactNode;
   falseRender?: React.ReactNode;
