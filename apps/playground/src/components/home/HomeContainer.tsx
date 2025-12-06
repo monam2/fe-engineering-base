@@ -12,6 +12,7 @@ export default function HomeContainer() {
       patterns={[
         { name: "Impression Area", href: "/react/impression-area" },
         { name: "Row Section", href: "/react/row-section" },
+        { name: "useDebounce Hook", href: "/react/use-debounce" },
       ]}
     />
   );

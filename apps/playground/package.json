@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@fe-base/hooks": "workspace:*",
     "@fe-base/react": "workspace:*",
     "@fe-base/utils": "workspace:*",
     "next": "15.5.6",
