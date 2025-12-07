@@ -13,6 +13,7 @@ export default function HomeContainer() {
         { name: "Impression Area", href: "/react/impression-area" },
         { name: "Row Section", href: "/react/row-section" },
         { name: "useDebounce Hook", href: "/react/use-debounce" },
+        { name: "useClickOutside Hook", href: "/react/use-click-outside" },
       ]}
     />
   );
